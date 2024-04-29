@@ -14,4 +14,4 @@ console.log(h4);
 console.log(green);
 console.log(blue);
 console.log(yellow);
-console.log(allTeals);
+console.log(allTeals); 
