@@ -2,10 +2,10 @@
 // 2. Check the textContent of "second" element
 // 3. Check the innerHTML of "third" element
 
-const first = document.querySelector(".first");
-const second = document.querySelector(".second");
-const third = document.querySelector(".third");
+const innerText = document.querySelector(".first").innerText;
+const textContent = document.querySelector(".second").textContent;
+const innerHTML = document.querySelector(".third").innerHTML;
 
-console.log(first.innerHTML);
-console.log(second.textContent);
-console.log(third.innerHTML);
+console.log(innerText);
+console.log(textContent);
+console.log(innerHTML);
